@@ -1,5 +1,11 @@
 # Changelog
 
+## 18.7.7 - [#???](https://github.com/openfisca/openfisca-france/pull/???)
+
+* Amélioration technique
+* Détails :
+  - Migration vers la version 17 d'OpenFisca-Core.
+
 ## 18.7.0 - [#797](https://github.com/openfisca/openfisca-france/pull/797)
 
 * Amélioration technique
