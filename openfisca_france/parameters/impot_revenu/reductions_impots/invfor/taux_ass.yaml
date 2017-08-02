@@ -1,0 +1,8 @@
+description: Taux pour les assurances
+reference: openfisca
+type: parameter
+values:
+  '2011-01-01':
+    value: 0.9
+  '2012-01-01':
+    value: 0.76

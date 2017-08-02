@@ -1,0 +1,6 @@
+reference: ipp
+type: parameter
+unit: currency
+values:
+  '2007-07-01':
+    value: 3896.18

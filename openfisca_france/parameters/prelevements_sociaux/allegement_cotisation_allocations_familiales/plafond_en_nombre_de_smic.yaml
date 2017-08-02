@@ -1,0 +1,7 @@
+reference: ipp
+type: parameter
+values:
+  '2015-01-01':
+    value: 1.6
+  '2016-04-01':
+    value: 3.5

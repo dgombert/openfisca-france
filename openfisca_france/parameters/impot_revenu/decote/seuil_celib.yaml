@@ -1,0 +1,7 @@
+description: Seuil de la décote pour un célibataire
+reference: openfisca
+type: parameter
+unit: currency
+values:
+  '2014-01-01':
+    value: 1135.0

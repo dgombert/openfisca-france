@@ -1,0 +1,8 @@
+description: Maximum
+reference: openfisca
+type: parameter
+unit: currency
+values:
+  '2009-01-01':
+    value: 300000.0
+  '2011-01-01': expected

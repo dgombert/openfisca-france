@@ -1,0 +1,7 @@
+description: Prime 1er personne à charge, famille monoparentale
+reference: openfisca
+type: parameter
+unit: currency
+values:
+  '2007-01-01':
+    value: 72.0

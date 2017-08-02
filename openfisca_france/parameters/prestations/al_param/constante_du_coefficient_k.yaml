@@ -1,0 +1,5 @@
+reference: ipp
+type: parameter
+values:
+  '1986-01-01':
+    value: 0.9

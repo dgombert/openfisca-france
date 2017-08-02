@@ -1,0 +1,9 @@
+description: Taux (WL)
+reference: openfisca
+type: parameter
+unit: /1
+values:
+  '2010-01-01':
+    value: 0.3
+  '2013-01-01':
+    value: 0.4

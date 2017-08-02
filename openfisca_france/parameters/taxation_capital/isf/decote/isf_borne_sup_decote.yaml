@@ -1,0 +1,7 @@
+description: Plafond de la décote
+reference: ipp
+type: parameter
+unit: currency
+values:
+  '2013-01-01':
+    value: 1400000.0

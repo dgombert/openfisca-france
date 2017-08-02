@@ -1,0 +1,6 @@
+reference: ipp
+type: parameter
+unit: /1
+values:
+  '2006-06-05':
+    value: 0.1063

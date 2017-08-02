@@ -1,0 +1,9 @@
+description: Plafond
+reference: openfisca
+type: parameter
+unit: currency
+values:
+  '2004-01-01':
+    value: 115.0
+  '2010-01-01':
+    value: null

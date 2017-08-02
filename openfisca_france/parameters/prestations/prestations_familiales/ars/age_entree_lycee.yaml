@@ -1,0 +1,7 @@
+description: Âge d'entrée au lycée
+reference: openfisca
+type: parameter
+unit: year
+values:
+  '2002-01-01':
+    value: 15.0

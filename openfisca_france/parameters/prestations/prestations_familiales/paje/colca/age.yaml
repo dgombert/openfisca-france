@@ -1,0 +1,7 @@
+description: Age limite (strict) de perception
+reference: openfisca
+type: parameter
+unit: year
+values:
+  '2004-01-01':
+    value: 1.0

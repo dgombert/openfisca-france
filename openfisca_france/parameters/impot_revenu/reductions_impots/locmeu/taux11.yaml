@@ -1,0 +1,7 @@
+description: taux 11%
+reference: openfisca
+type: parameter
+unit: /1
+values:
+  '2012-01-01':
+    value: 0.11

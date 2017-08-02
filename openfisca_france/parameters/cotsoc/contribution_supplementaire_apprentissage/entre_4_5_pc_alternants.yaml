@@ -1,0 +1,9 @@
+description: Taux pour les entreprises comprenant 4%  à 5% d'atlernants
+reference: openfisca
+type: parameter
+unit: /1
+values:
+  '2013-01-01':
+    value: 0.0
+  '2015-01-01':
+    value: 0.0005

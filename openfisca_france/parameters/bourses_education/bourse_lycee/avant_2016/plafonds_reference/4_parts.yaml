@@ -1,0 +1,7 @@
+description: Plafond de référence pour 4 parts
+reference: openfisca
+type: parameter
+unit: currency
+values:
+  '2014-01-01':
+    value: 11319.0

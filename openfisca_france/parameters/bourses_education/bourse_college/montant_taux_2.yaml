@@ -1,0 +1,7 @@
+description: Montant échelon 2, en multiple de la BMAF
+reference: openfisca
+type: parameter
+unit: currency
+values:
+  '2009-05-15':
+    value: 0.5673

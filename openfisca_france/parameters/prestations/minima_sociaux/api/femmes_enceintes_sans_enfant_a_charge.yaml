@@ -1,0 +1,10 @@
+reference: ipp
+type: parameter
+unit: /1
+values:
+  '1976-10-01':
+    value: 1.3
+  '1977-11-27':
+    value: 1.5
+  '2009-06-01':
+    value: null

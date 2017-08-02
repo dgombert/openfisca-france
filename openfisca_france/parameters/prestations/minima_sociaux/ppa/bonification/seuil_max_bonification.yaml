@@ -1,0 +1,7 @@
+description: Seuil de salaire pour bénéficier de la bonification maximale, en multiple
+  du smic horaire brut.
+reference: ipp
+type: parameter
+values:
+  '2016-01-01':
+    value: 95.0

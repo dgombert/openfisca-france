@@ -1,0 +1,9 @@
+description: Majoration du seuil par demi-part supplémentaire
+reference: openfisca
+type: parameter
+unit: currency
+values:
+  '2013-01-01':
+    value: 3536.0
+  '2016-01-01':
+    value: null

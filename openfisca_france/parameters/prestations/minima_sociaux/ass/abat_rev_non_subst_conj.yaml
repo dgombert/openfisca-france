@@ -1,0 +1,9 @@
+description: Abbatement appliqué aux revenus interompus et non substitués du conjoint
+  (pas de pension de retraite, ni de chômage, etc.
+reference: openfisca
+type: parameter
+values:
+  '2005-01-01':
+    value: 0.0
+  '2008-05-01':
+    value: 1.0

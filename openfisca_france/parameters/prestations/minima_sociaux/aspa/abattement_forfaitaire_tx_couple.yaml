@@ -1,0 +1,8 @@
+description: Fraction du SMIC pour l'abattement (couple)
+reference: openfisca
+type: parameter
+values:
+  '2002-01-01':
+    value: 0.0
+  '2015-01-01':
+    value: 1.5

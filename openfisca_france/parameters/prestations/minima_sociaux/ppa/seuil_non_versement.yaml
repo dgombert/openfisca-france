@@ -1,0 +1,7 @@
+description: Seuil de non versement de la PPA
+reference: ipp
+type: parameter
+unit: currency
+values:
+  '2016-01-01':
+    value: 15.0

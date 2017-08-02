@@ -1,0 +1,8 @@
+description: Taux (XC)
+reference: openfisca
+type: parameter
+unit: /1
+values:
+  '2004-01-01':
+    value: 0.25
+  '2013-01-01': expected

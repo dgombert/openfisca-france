@@ -1,0 +1,6 @@
+description: Durée (en mois) de versement pour le premier enfant
+reference: openfisca
+type: parameter
+values:
+  '2004-01-01':
+    value: 6.0

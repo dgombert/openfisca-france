@@ -1,0 +1,11 @@
+description: Taux
+reference: ipp
+type: parameter
+unit: /1
+values:
+  '1978-01-01':
+    value: 0.0
+  '1988-01-01':
+    value: 0.25
+  '2006-01-01':
+    value: 0.5

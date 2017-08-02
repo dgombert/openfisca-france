@@ -1,0 +1,6 @@
+description: Indicatrice pour imposition des revenus du capital au barème
+reference: openfisca
+type: parameter
+values:
+  '2001-01-01':
+    value: 0.0

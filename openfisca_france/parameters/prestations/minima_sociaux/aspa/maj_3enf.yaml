@@ -1,0 +1,9 @@
+description: Majoration pour 3 enfants
+reference: openfisca
+type: parameter
+unit: /1
+values:
+  '1986-01-01':
+    value: 0.1
+  '2007-02-01':
+    value: 0.0

@@ -1,0 +1,7 @@
+description: Plafond du plafond
+reference: openfisca
+type: parameter
+unit: currency
+values:
+  '2005-01-01':
+    value: 15000.0

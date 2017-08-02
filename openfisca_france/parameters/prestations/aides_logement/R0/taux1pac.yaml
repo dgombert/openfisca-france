@@ -1,0 +1,8 @@
+description: Taux pour 1 pac
+type: parameter
+unit: currency
+values:
+  '2015-01-01':
+    value: 7762.0
+  '2016-01-01':
+    value: 7793.0

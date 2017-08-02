@@ -1,0 +1,6 @@
+reference: ipp
+type: parameter
+unit: currency
+values:
+  '2009-01-01':
+    value: 100000.0

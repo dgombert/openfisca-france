@@ -1,0 +1,9 @@
+description: Seuil de non recouvrement
+reference: openfisca
+type: parameter
+unit: currency
+values:
+  '2002-01-01':
+    value: 16.0
+  '2011-01-01':
+    value: 21.0

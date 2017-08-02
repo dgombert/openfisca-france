@@ -1,0 +1,7 @@
+description: Taux (VU)
+reference: openfisca
+type: parameter
+unit: /1
+values:
+  '2013-01-01':
+    value: 0.25

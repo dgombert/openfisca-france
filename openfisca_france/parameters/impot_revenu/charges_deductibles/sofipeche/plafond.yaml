@@ -1,0 +1,11 @@
+description: Maximum
+reference: ipp
+type: parameter
+unit: currency
+values:
+  '1998-01-01':
+    value: 125000.0
+  '2001-01-01':
+    value: 19000.0
+  '2007-01-01':
+    value: null

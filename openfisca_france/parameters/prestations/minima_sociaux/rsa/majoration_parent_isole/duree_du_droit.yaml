@@ -1,0 +1,5 @@
+reference: ipp
+type: parameter
+values:
+  '2009-06-01':
+    value: 12.0

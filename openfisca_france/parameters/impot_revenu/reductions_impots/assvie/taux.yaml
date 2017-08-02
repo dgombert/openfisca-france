@@ -1,0 +1,9 @@
+description: Taux
+reference: openfisca
+type: parameter
+unit: /1
+values:
+  '1984-01-01':
+    value: 0.25
+  '2005-01-01':
+    value: null

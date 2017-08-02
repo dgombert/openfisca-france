@@ -1,0 +1,7 @@
+description: Seuil de recouvrement après imputations
+reference: openfisca
+type: parameter
+unit: currency
+values:
+  '2002-01-01':
+    value: 12.0

@@ -1,0 +1,5 @@
+reference: ipp
+type: parameter
+values:
+  '1985-12-22':
+    value: 20.0

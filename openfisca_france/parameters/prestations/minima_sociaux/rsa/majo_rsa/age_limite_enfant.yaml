@@ -1,0 +1,9 @@
+description: Âge limite du benjamin pour un versement sans condition de durée
+reference: openfisca
+type: parameter
+unit: year
+values:
+  '1997-01-01':
+    value: 0.0
+  '2009-06-01':
+    value: 3.0

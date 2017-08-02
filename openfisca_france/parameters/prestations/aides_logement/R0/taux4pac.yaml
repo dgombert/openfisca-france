@@ -1,0 +1,8 @@
+description: Taux pour 4 pac
+type: parameter
+unit: currency
+values:
+  '2015-01-01':
+    value: 8547.0
+  '2016-01-01':
+    value: 8581.0

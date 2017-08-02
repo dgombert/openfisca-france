@@ -1,0 +1,5 @@
+reference: ipp
+type: parameter
+values:
+  '1991-11-11':
+    value: 65.0

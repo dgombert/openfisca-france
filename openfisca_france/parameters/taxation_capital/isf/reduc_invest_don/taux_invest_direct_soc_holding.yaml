@@ -1,0 +1,7 @@
+description: Taux pour investissement direct soc, holdings, fip, fcpi
+reference: ipp
+type: parameter
+unit: /1
+values:
+  '2008-01-01':
+    value: 0.5

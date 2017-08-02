@@ -1,0 +1,5 @@
+description: Zone 2 - coeff suppression
+type: parameter
+values:
+  '2016-07-01':
+    value: 3.1

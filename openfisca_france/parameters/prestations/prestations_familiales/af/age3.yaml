@@ -1,0 +1,8 @@
+description: Âge maximal pour toucher les AF (forfait datant de 2003-07-01 inclus
+  )
+reference: openfisca
+type: parameter
+unit: year
+values:
+  '2003-07-01':
+    value: 20.0

@@ -1,0 +1,7 @@
+description: Pour 2 enfants
+reference: openfisca
+type: parameter
+unit: /1
+values:
+  '1999-07-01':
+    value: 0.03

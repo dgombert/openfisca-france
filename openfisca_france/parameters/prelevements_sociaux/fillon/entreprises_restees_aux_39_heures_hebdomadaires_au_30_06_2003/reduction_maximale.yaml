@@ -1,0 +1,9 @@
+reference: ipp
+type: parameter
+values:
+  '2003-07-01':
+    value: 0.208
+  '2004-07-01':
+    value: 0.234
+  '2005-07-01':
+    value: null

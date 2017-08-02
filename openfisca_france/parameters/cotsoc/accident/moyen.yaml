@@ -1,0 +1,7 @@
+description: Accident du travail (taux moyen)
+reference: openfisca
+type: parameter
+values:
+  '2012-01-01':
+    value: 0.03
+  '2015-01-01': expected

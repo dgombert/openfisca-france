@@ -1,0 +1,7 @@
+description: Taux
+reference: ipp
+type: parameter
+unit: /1
+values:
+  '1989-01-01':
+    value: 0.25

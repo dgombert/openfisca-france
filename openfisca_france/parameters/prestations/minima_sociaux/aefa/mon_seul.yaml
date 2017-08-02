@@ -1,0 +1,7 @@
+description: Montant de l'aide pour une personne seule
+reference: ipp
+type: parameter
+unit: currency
+values:
+  '2003-01-01':
+    value: 125.45

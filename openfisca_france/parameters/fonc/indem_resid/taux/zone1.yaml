@@ -1,0 +1,7 @@
+description: 'Indemnité de résidence zone 1 : taux '
+reference: openfisca
+type: parameter
+unit: /1
+values:
+  '1999-07-01':
+    value: 0.03

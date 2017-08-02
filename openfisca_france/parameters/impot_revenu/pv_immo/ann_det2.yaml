@@ -1,0 +1,6 @@
+description: Nombre d'années pleines de détentions 2e seuil
+reference: openfisca
+type: parameter
+values:
+  '2012-02-01':
+    value: 17.0

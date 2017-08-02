@@ -1,0 +1,9 @@
+description: Plafond annuel de ressources n°1
+reference: ipp
+type: parameter
+unit: currency
+values:
+  '2015-07-01':
+    value: 67140.0
+  '2016-01-01':
+    value: 67408.0

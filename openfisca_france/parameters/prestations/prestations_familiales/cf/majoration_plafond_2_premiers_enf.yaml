@@ -1,0 +1,7 @@
+description: Majoration du plafond pour les 2 premiers enfants
+reference: ipp
+type: parameter
+unit: /1
+values:
+  '1986-01-01':
+    value: 0.25

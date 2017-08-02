@@ -1,0 +1,7 @@
+reference: ipp
+type: parameter
+values:
+  '1976-08-01':
+    value: 20.0
+  '2006-01-01':
+    value: null

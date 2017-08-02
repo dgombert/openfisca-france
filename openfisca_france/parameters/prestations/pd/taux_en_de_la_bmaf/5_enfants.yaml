@@ -1,0 +1,6 @@
+reference: ipp
+type: parameter
+unit: /1
+values:
+  '1976-08-01':
+    value: 2.8

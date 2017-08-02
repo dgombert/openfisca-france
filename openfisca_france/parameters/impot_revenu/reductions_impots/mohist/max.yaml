@@ -1,0 +1,7 @@
+description: Plafond
+reference: openfisca
+type: parameter
+unit: currency
+values:
+  '2008-01-01':
+    value: 20000.0

@@ -1,0 +1,7 @@
+description: Âge minimal pour être considéré comme enfant à charge
+reference: openfisca
+type: parameter
+unit: year
+values:
+  '2001-01-01':
+    value: 0.0
