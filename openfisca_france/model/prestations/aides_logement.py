@@ -7,7 +7,7 @@ import json
 import logging
 import pkg_resources
 
-from numpy import ceil, fromiter, int16, logical_or as or_, logical_and as and_, take
+from numpy import ceil, fromiter, int16, logical_or as or_, logical_and as and_
 
 import openfisca_france
 from openfisca_core.periods import Instant
@@ -324,21 +324,13 @@ class aide_logement_loyer_plafond(Variable):
         chambre = famille.demandeur.menage('logement_chambre', period)
         zone_apl = famille.demandeur.menage('zone_apl', period)
 
-        # Preprocessing pour pouvoir accéder aux paramètres dynamiquement par zone.
-        plafonds_by_zone = [
-            [0] +
-            [al.loyers_plafond['zone' + str(zone)][i]
-            for zone in range(1, 4)]
-            for i in ['personnes_seules', 'couples', 'un_enfant', 'majoration_par_enf_supp']
-            ]
-        plafond_personne_seule = take(plafonds_by_zone[0], zone_apl)
-        plafond_couple = take(plafonds_by_zone[1], zone_apl)
-        plafond_famille = take(plafonds_by_zone[2], zone_apl) + (al_nb_pac > 1) * (al_nb_pac - 1) * take(plafonds_by_zone[3], zone_apl)
+        plafonds = al.loyers_plafond[concat('zone', zone_apl)]
+        plafond_famille = plafonds.un_enfant + (al_nb_pac > 1) * (al_nb_pac - 1) * plafonds.majoration_par_enf_supp
 
         plafond = select(
             [not_(couple) * (al_nb_pac == 0) + chambre, al_nb_pac > 0],
-            [plafond_personne_seule, plafond_famille],
-            default = plafond_couple
+            [plafonds.personnes_seules, plafond_famille],
+            default = plafonds.couples
             )
 
         coeff_coloc = where(coloc, al.loyers_plafond.colocation, 1)
@@ -360,9 +352,7 @@ class aide_logement_loyer_seuil_degressivite(Variable):
         chambre = famille.demandeur.menage('logement_chambre', period)
         coloc = famille.demandeur.menage('coloc', period)
 
-        coeff_degressivite_by_zone = [0] + [al.loyers_plafond['zone' + str(zone)]['degressivite'] for zone in range(1, 4)]
-        coeff_degressivite = take(coeff_degressivite_by_zone, zone_apl)
-
+        coeff_degressivite = al.loyers_plafond[concat('zone', zone_apl)].degressivite
         loyer_degressivite = loyer_plafond * coeff_degressivite
         minoration_coloc = loyer_degressivite * 0.25 * coloc
         minoration_chambre = loyer_degressivite * 0.1 * chambre
@@ -384,9 +374,7 @@ class aide_logement_loyer_seuil_suppression(Variable):
         chambre = famille.demandeur.menage('logement_chambre', period)
         coloc = famille.demandeur.menage('coloc', period)
 
-        coeff_suppression_by_zone = [0] + [al.loyers_plafond['zone' + str(zone)]['suppression'] for zone in range(1, 4)]
-        coeff_suppression = take(coeff_suppression_by_zone, zone_apl)
-
+        coeff_suppression = al.loyers_plafond[concat('zone', zone_apl)].suppression
         loyer_suppression = loyer_plafond * coeff_suppression
         minoration_coloc = loyer_suppression * 0.25 * coloc
         minoration_chambre = loyer_suppression * 0.1 * chambre
